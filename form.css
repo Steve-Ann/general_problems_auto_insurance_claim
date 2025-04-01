@@ -1,0 +1,36 @@
+.text-input-style {
+    display: inline-block; 
+    padding: 12px 48px 12px 12px;
+    width: 130px;
+}
+
+.input-style {
+    border: 2px black solid;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    width: 450px;
+}
+
+.fcolumn {
+    float: left;
+    padding: 10px;
+    height: 90 px;
+    width: 50%;
+    margin: 15px;
+}
+
+.scolumn {
+    float: left;
+    padding: 10px;
+    height: 90 px;
+    width: 50%;
+    margin: 15px;
+}
+
+
+

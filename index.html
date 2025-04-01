@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Insurance Claim Form</title>
+    <link rel="stylesheet" href="form.css"/>
+</head>
+<body>
+    
+    <form style="display: flex; flex-direction: column; width: 680px; margin: 0 auto; justify-content: space-around;">
+        <div style="text-align: center;"><h3>General Problems Auto Insurance Claim Form</h3></div>
+        <div>
+            <label class="text-input-style" for="First_Name">First Name</label>
+            <input style="border: 2px black solid;" type="text">
+        </div>
+        <div>
+            <label class="text-input-style" for="Last_Name">Last Name</label>
+            <input class="input-style" type="text">
+        </div> 
+        <div>
+            <label class="text-input-style" for="Email_Address">Email Address</label>
+            <input class="input-style" type="text">
+        </div>
+        <div> 
+            <label class="text-input-style" for="Tel_Number">Tel. Number</label>
+            <input class="input-style" type="text">
+        </div> 
+        <div style="margin-bottom: 15px;">
+            <div>
+                <p>Please identify your gender</p>
+                <label>Male</label>
+                <input type="radio" value="Male" id="gender" name="gender">                
+            </div>
+            <div>    
+                <label>Female</label>
+                <input type="radio" value="Female" id="gender" name="gender">
+            </div> 
+        </div>   
+        <div>
+            <p>Please indicate the nature of your damage done to your vehicle</p>
+        </div>
+        <container>
+            <div class="fcolumn">
+                <div>
+                    <label>Body Damage</label>
+                    <input type="checkbox" name="checkbox">
+                </div>
+                <div>
+                    <label>Bumper Damage</label>
+                    <input type="checkbox" name="checkbox">
+                </div>
+                <div>
+                    <label>Interior Damage</label>
+                    <input type="checkbox" name="checkbox">
+                </div>
+            </div>
+
+            <div class="scolumn">
+                <div>
+                    <label>Windscreen Damage</label>
+                    <input type="checkbox" name="checkbox">
+                </div>
+                <div>
+                    <label>Engine Damage</label>
+                    <input type="checkbox" name="checkbox">
+                </div>
+                <div>
+                    <label>Tire Damage</label>
+                    <input type="checkbox" name="checkbox">  
+                </div>
+        </div>
+        </container>
+        <div>
+            <p>Please write in full detail the beginning of the incident to the end</p>
+             <textarea rows="15" cols="61"></textarea>
+        </div>
+        <div>
+            <P>Choose the type of insurance coverage you would like to have</P>
+                <select>
+                    <option value="Full Premium">Full Premium</option>
+                    <option value="Full Coverage">Full Coverage</option>
+                    <option value="Partial Coverage">Partial Coverage</option>
+                    <option value="Minimum Coverage">Minimum Coverage</option>
+                    <option value="No Coverage">No Coverage</option>
+                </select>
+        </div>
+        </br>
+        <input type="submit" value="Submit" style="width: 60px;" >
+    </form> 
+</body>
+</html>
